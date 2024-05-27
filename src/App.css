@@ -1,0 +1,48 @@
+/* App.css */
+
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end; /* Align all content to the right */
+}
+
+.logo {
+  cursor: pointer; /* Change cursor to pointer when hovering over the logo */
+}
+
+.logo img {
+  width: 200px; /* Adjust the width according to your preference */
+  height: auto;
+  border-radius: 50%; /* Adds a rounded border to the image */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow to the image */
+  transition: transform 0.3s ease; /* Adds a smooth transition effect */
+}
+
+.logo img:hover {
+  transform: scale(1.1); /* Increases the size of the image slightly on hover */
+}
+
+.navbar {
+  background-color: #333; /* Dark background color */
+  padding: 10px 0; /* Adjust padding as needed */
+  width: 100%; /* Ensure navbar spans the full width */
+  position: sticky; /* Make the navbar sticky */
+  top: 0; /* Stick to the top of the viewport */
+  z-index: 1000; /* Ensure it's above other elements */
+}
+
+.navbar-items {
+  display: flex;
+  justify-content: flex-end; /* Align items to the right */
+  width: 100%; /* Ensure items span the full width */
+}
+
+.navbar-items a {
+  color: white;
+  text-decoration: none;
+  margin-left: 20px; /* Adjust margin to add spacing between links */
+}
+
+.navbar-items a:hover {
+  color: #e41717d8; /* Change color on hover */
+}

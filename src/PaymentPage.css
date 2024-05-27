@@ -1,0 +1,105 @@
+/* PaymentPage.css */
+
+.payment-page {
+  max-width: 800px;
+  width: 100%;
+  padding: 2rem;
+  background-color: #1a1a1a;
+  border-radius: 12px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  margin: 70px auto 0; /* Ensure content starts below the fixed navbar */
+}
+
+.payment-page h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #00d8ff;
+  text-shadow: 0 0 10px rgba(0, 216, 255, 0.5);
+  margin-bottom: 2rem;
+}
+
+.payment-options {
+  margin-bottom: 2rem;
+}
+
+.payment-options .form-group {
+  margin-bottom: 1.5rem;
+}
+
+.payment-options label {
+  display: block;
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+  color: #00d8ff;
+}
+
+.payment-options select,
+.payment-options input[type='text'] {
+  width: 100%;
+  padding: 0.75rem 1rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 6px;
+  background-color: #2b2b2b;
+  color: #fff;
+  transition: box-shadow 0.3s ease;
+}
+
+.payment-options select:focus,
+.payment-options input[type='text']:focus {
+  outline: none;
+  box-shadow: 0 0 10px rgba(0, 216, 255, 0.5);
+}
+
+.payment-form {
+  margin-top: 2rem;
+}
+
+.payment-form h2 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  color: #00d8ff;
+}
+
+.payment-form label {
+  color: #fff;
+}
+
+.payment-form input[type='text'] {
+  margin-bottom: 1rem;
+}
+
+.error-message {
+  color: #ff5c5c;
+  margin-top: 0.5rem;
+}
+
+button[type='submit'] {
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 6px;
+  background-color: #00d8ff;
+  color: #0d0d0d;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button[type='submit']:hover {
+  background-color: #00c0e6;
+}
+
+button[type='submit']:disabled {
+  background-color: #aaa;
+  cursor: not-allowed;
+}
+
+.qr-code-image {
+  max-width: 200px;
+  margin-bottom: 1rem;
+}

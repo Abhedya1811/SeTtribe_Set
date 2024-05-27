@@ -1,0 +1,72 @@
+.signup-container {
+  max-width: 800px; /* Increased max-width */
+  margin: 50px auto;
+  padding: 40px; /* Increased padding for more space inside */
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.signup-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group {
+  margin-bottom: 30px; /* Increased margin-bottom */
+}
+
+label {
+  font-weight: bold;
+  color: #555;
+  margin-bottom: 12px; /* Increased margin-bottom */
+}
+
+input {
+  padding: 15px; /* Increased padding for larger input fields */
+  border: 1px solid #ddd;
+  border-radius: 8px; /* Slightly increased border-radius */
+  font-size: 18px; /* Increased font size for better readability */
+  width: 100%;
+}
+
+.submit-btn {
+  background-color: #ff6b6b !important; /* Red background color */
+  color: #fff !important;
+  border: none !important;
+  border-radius: 8px !important;
+  padding: 15px 25px !important;
+  cursor: pointer !important;
+  transition: background-color 0.3s ease;
+}
+
+.submit-btn:hover {
+  background-color: #ff4f4f !important; /* Darker red on hover */
+}
+
+.signup-container h2 {
+  text-align: center;
+  margin-bottom: 30px; /* Increased margin-bottom */
+  font-size: 28px; /* Increased font size for the heading */
+  color: #333;
+}
+
+.signup-container .form-group input[type="text"],
+.signup-container .form-group input[type="email"],
+.signup-container .form-group input[type="tel"],
+.signup-container .form-group input[type="password"] {
+  width: calc(100% - 30px); /* Adjusted width */
+}
+
+.signup-container .form-group label {
+  color: #555;
+}
+
+.signup-container .form-group input[type="text"]:focus,
+.signup-container .form-group input[type="email"]:focus,
+.signup-container .form-group input[type="tel"]:focus,
+.signup-container .form-group input[type="password"]:focus {
+  outline: none;
+  border-color: #ff6b6b;
+  box-shadow: 0 0 8px rgba(255, 107, 107, 0.5);
+}

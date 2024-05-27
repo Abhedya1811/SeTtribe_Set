@@ -1,0 +1,79 @@
+/* Center align all content */
+.container {
+  max-width: 1200px; /* Adjust max-width as needed */
+  margin: 0 auto; /* Center horizontally */
+  align-items: flex-start; /* Align content to the left */
+}
+
+/* Master Search */
+.master-search {
+  margin-bottom: 20px;
+  width: 100%; /* Ensure full width */
+  max-width: 600px; /* Limit width for better readability */
+}
+
+.master-search input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Apply Filters */
+.apply-filters {
+  margin-bottom: 20px;
+}
+
+.apply-filters button {
+  background-color: #f2f2f2; /* Light grey background */
+  color: #333; /* Dark grey text color */
+  border: none;
+  padding: 10px 20px;
+  margin-right: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.apply-filters button:hover {
+  background-color: #ddd; /* Slightly darker grey on hover */
+}
+
+/* List of Food Items */
+.food-items {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-gap: 20px;
+  width: 100%; /* Ensure full width */
+  max-width: 1200px; /* Limit width for better readability */
+}
+
+.food-item {
+  background-color: #f2f2f2; /* Light grey background */
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.food-item h3 {
+  margin-top: 0;
+  margin-bottom: 10px;
+  color: #333; /* Dark grey text color */
+}
+
+.food-item p {
+  margin: 5px 0;
+  color: #333; /* Dark grey text color */
+}
+
+.food-item button {
+  background-color: #000000; /* Light grey background */
+  color: #dbfeff; /* Dark grey text color */
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.food-item button:hover {
+  background-color: #ddd; /* Slightly darker grey on hover */
+}

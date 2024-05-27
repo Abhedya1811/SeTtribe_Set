@@ -1,0 +1,51 @@
+.booked-tables-container {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  
+  .booked-tables-container h2 {
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .booked-tables-container input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .booked-tables-container ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .booked-tables-container ul li {
+    margin-bottom: 15px;
+  }
+  
+  .booked-tables-container strong {
+    font-weight: bold;
+  }
+  
+  .booked-tables-container label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .booked-tables-container button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .booked-tables-container button:hover {
+    background-color: #0056b3;
+  }  

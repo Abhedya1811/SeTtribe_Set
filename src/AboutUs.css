@@ -1,0 +1,40 @@
+/* AboutUs.css */
+
+.about-us-container {
+  font-family: 'Arial', sans-serif;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: #333; /* Change background color to dark grey */
+}
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #fff; /* Change text color to white */
+}
+
+.owner-details,
+.restaurant-location {
+  background-color: #555; /* Change background color to a slightly lighter grey */
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: #fff; /* Change text color to white */
+}
+
+p {
+  font-size: 16px;
+  margin-bottom: 8px;
+  color: #fff; /* Change text color to white */
+}
