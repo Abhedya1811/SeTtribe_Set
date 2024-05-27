@@ -12,6 +12,10 @@ import { AuthProvider } from './AuthContext';
 import TableBookingForm from './order';
 import PaymentPage from './PaymentPage';
 import AdminDashboard from './Admin/AdminDashboard';
+import BookedTablesReport from './booktbl';
+import OrdersReport from './orders';
+import Register from './signup';
+import { NotFound } from './notfound';
 
 
 
@@ -38,14 +42,19 @@ function App() {
             <div className="navbar-items">
               <Link to="/">Home</Link>
               <Link to="/menu">Menu</Link>
-              
+             
+          
               <Link to="/orderfood">Order Food</Link>
               <Link to="/book">Book Table</Link>
               <Link to="/signup">SignUp</Link>
               <Link to="/aboutUs">AboutUs</Link>
-              <Link to="/login"></Link>
+             
               <Link to="/pay"></Link>
               <Link to="/admin"></Link>
+              <Link to="/urlpattern2"></Link>
+          <Link to="/urlpattern3"></Link>
+          <Link to="/urlpattern4"></Link>
+          <Link to="/urlpattern1"></Link>
 
               
               
@@ -62,6 +71,11 @@ function App() {
          <Route path='/book' Component={TableBookingForm}></Route>
           <Route path='/login' Component={Login}></Route>
           <Route path='/pay' Component={ PaymentPage}></Route>
+          <Route path='urlpattern1' Component={Login}></Route>
+          <Route path='urlpattern2' Component={BookedTablesReport}></Route>
+          <Route path='urlpattern3' Component={OrdersReport}></Route>
+          <Route path='urlpattern4' Component={Register}></Route>
+          <Route path='*' Component={NotFound}></Route>
           <Route path='/admin' Component={AdminDashboard}></Route>
 
          
